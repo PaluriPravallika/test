@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "Name":"pravallika",
+        "Education":"B.tech",
+        "Stream":"CSE"
+    },
+    {
+         "id":2,
+         "Name":"Sekhar",
+         "Education":"B.tech",
+         "Stream":"ECE"
+    },
+    {
+        "id":3,
+        "Name":"Hareesh",
+        "Education":"B.tech",
+        "Stream":"Mechanical"
+    },
+    {
+        "id":4,
+        "Name":"padma",
+        "Education":"B.Pharmacy",
+        "Stream":"" 
+    },
+    {
+        "id":5,
+        "Name":"sneha",
+        "Education":"MCA",
+        "Stream":"CS"
+    }
+]

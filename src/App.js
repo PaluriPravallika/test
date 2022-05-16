@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Stu from './place.json';
 
 function App() {
+  const[details,Setdetails]=useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <center>
+      <h2>Stud</h2>
+      <input  type={"text"} value={details} onChange={(text)=>Setdetails(text.target.value)}/>
+      {Stu.filter(txt=>txt.Name.includes(details)).map((txt)=><h4>{txt.Name}</h4>)}</center>
     </div>
   );
 }
